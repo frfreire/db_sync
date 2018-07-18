@@ -45,7 +45,8 @@ SET default_with_oids = false;
 
 CREATE TABLE public.pessoa (
     nome character varying(100),
-    idt character varying(20)
+    idt character varying(20),
+    cpf character varying(20),
 );
 
 
